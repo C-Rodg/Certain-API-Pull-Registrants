@@ -31,7 +31,10 @@ const startPull = async () => {
 			registrations.push(data.registrations);
 		}
 
-		await fs.writeFile("dist/registrants.json", JSON.stringify(registrations));
+		await fs.writeFile(
+			"dist/registrants.json",
+			JSON.stringify(registrations, null, 4)
+		);
 		console.log(
 			`Finished writing for ${pullSize} registrants over ${reqPulls} pulls.`
 		);
