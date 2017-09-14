@@ -1,0 +1,12 @@
+# Modules
+node_modules/
+
+# Output
+dist/
+completePull.json
+
+# Secrets
+config.js
+
+# Yarn
+yarn.lock

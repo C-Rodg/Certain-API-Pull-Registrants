@@ -1,0 +1,16 @@
+{
+	"name": "api-certain-pullregistrants",
+	"version": "1.0.0",
+	"main": "index.js",
+	"description":
+		"A tool to download a complete set of event data from Certain.",
+	"author": "Curtis Rodgers",
+	"repository": {
+		"url": "https://github.com/C-Rodg/Certain-API-Pull-Registrants.git",
+		"type": "git"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.16.2"
+	}
+}
